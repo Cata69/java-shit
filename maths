@@ -1,0 +1,15 @@
+package mingus;
+import java.util.Scanner;
+public class bong {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("c1= ?");
+		double c1 = scanner.nextInt();
+		System.out.println("c2= ?");
+		double c2 = scanner.nextInt();
+		double i;
+		i = Math.sqrt(c1*c1 + c2*c2);
+		System.out.println("lungimea ipotenuzei este = " + i);
+				
+		}
+	}
