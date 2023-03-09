@@ -1,0 +1,22 @@
+package mingus;
+import java.util.Scanner;
+public class bong {
+
+	public static void main(String[] args) {
+				
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("what is your name?");
+		String name = scanner.nextLine();
+		System.out.println("age?");
+		int age = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("ce iti place sa mananci?");
+		String food = scanner.nextLine();
+		System.out.println("ai " + age + " ani");
+		System.out.println("iti place " + food);
+		System.out.println("hello " + name);
+		
+		
+				
+		}
+	}
