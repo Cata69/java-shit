@@ -1,0 +1,12 @@
+package mingus;
+import javax.swing.JOptionPane;
+public class bong {
+	public static void main(String[] args) {
+			String name = JOptionPane.showInputDialog("enter your name");
+			JOptionPane.showMessageDialog(null, "hello "+name);
+			int age = Integer.parseInt(JOptionPane.showInputDialog("age?"));
+			JOptionPane.showMessageDialog(null, "you are "+ age);
+			double height = Double.parseDouble(JOptionPane.showInputDialog("ai cumva 180 cm?"));
+			JOptionPane.showMessageDialog(null, "dude, tu chiar ai" + height );
+		}
+	}
